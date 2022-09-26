@@ -286,8 +286,6 @@
  }
 
  ul {
-     list-style: square;
-     text-align: left;
      display: inline-block;
      line-height: 2;
  }
