@@ -1,0 +1,441 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@400;700;900&display=swap');
+
+ * {
+     margin: 0%;
+     padding: 0%;
+ }
+
+ .our-visionary {
+     display: flex;
+     flex-direction: column;
+     background: url(images/vision1.jpeg)center;
+     background-size: 100% 781px;
+     padding: 30px;
+     align-items: center;
+     height: 650px;
+ }
+
+ .box {
+     border: 18px solid white;
+     color: white;
+     width: 400px;
+     padding: 60px;
+ }
+
+ .box h1 {
+     font-size: 116px;
+ }
+
+ .box p {
+     padding: 37px 2px;
+     font-size: 20px;
+     line-height: 1.5;
+ }
+
+ .services-product {
+     background-color: #fb4bd7;
+     height: 500px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ .services-discription {
+     width: 500px;
+     display: flex;
+     flex-wrap: wrap;
+     color: white;
+ }
+
+ .img-startup {
+     width: 500px;
+ }
+
+ .services-discription h1 {
+     color: #ffec00;
+     font-size: 60px;
+ }
+
+ .services-discription h4 {
+     font-size: 40px;
+     margin: 10px 30px;
+ }
+
+ .services-discription p {
+     margin: 18px 0 0 10px;
+     line-height: 1.5;
+ }
+
+ .sample-headline {
+     background-color: #327ef9;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 30px;
+ }
+
+ .sample-headline-content {
+     color: white;
+     width: 500px;
+ }
+
+ .sample-headline-content h1 {
+     font-size: 45px;
+     margin-top: 9px;
+ }
+
+ .sample-headline-content p {
+     font-size: 18px;
+     margin-top: 20px;
+     line-height: 1.4;
+ }
+
+ .sample-data {
+     width: 500px;
+     border: 15px solid white;
+     text-align: center;
+     padding: 30px;
+     color: white;
+ }
+
+ .sample-data h1 {
+     color: #ffec00;
+     font-size: 72px;
+     font-weight: 900;
+     font-family: Montserrat, sans-serif !important;
+ }
+
+ .sample-data h6 {
+     font-size: 20px;
+     padding-top: 14px;
+ }
+
+ .sample-data p {
+     padding-top: 20px;
+ }
+
+ .data-text {
+     margin-top: 15px;
+ }
+
+ .data-text-two {
+     margin-top: 15px;
+ }
+
+ .cards {
+     background-color: #fb4bd7;
+     text-align: center;
+     color: white;
+ }
+
+ .card-logo {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .card-logo>div {
+     background-color: white;
+     width: 321px;
+     height: 132px;
+     padding-top: 33px;
+     margin: 20px 20px;
+ }
+
+ .card-logo p {
+     width: 745px;
+     text-align: center;
+     font-size: 20px;
+     line-height: 1.4;
+ }
+
+ .card-img {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .card-img img {
+     width: 350px;
+     height: 350px;
+     margin: 10px;
+ }
+
+ img:hover {
+     cursor: pointer;
+     opacity: 0.9;
+     transition: all 0.2s ease-in-out;
+ }
+
+ .protfolio {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #327ef9;
+     height: auto;
+ }
+
+ .protfolio-pic {
+     width: 526px;
+     height: 666px;
+ }
+
+ .protfolio-content {
+     width: 40%;
+     height: 600px;
+ }
+
+ .protfolio-content h1 {
+     color: #ffec00;
+     font-size: 54px;
+     border: solid white;
+     border-width: 0 0 20px 0;
+     padding: 23px 1px;
+ }
+
+ .project {
+     display: flex;
+     flex-wrap: wrap;
+     background: url(images/vision1.jpeg) center;
+     background-position: 50% 100%;
+     background-size: cover;
+     height: 600px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .project-info {
+     border: 15px solid white;
+     margin: 0 306px;
+     text-align: center;
+     font-size: 40px;
+     color: white;
+ }
+
+ .button {
+     background-color: rgb(255, 236, 0);
+     color: rgb(251, 75, 215);
+     padding: 13px;
+     border-radius: 50px;
+     width: 219px;
+     font-size: 20px;
+     border: transparent;
+     margin: 33px;
+ }
+
+ .button:hover {
+     background-color: #327ef9;
+     color: white;
+     border: transparent;
+     justify-content: flex-end;
+     align-items: center;
+ }
+
+ .our-courses {
+     display: flex;
+     flex-wrap: wrap;
+     background-color: #327ef9;
+     height: auto;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .course-info {
+     width: 500px;
+     color: white;
+ }
+
+ .course-info h1 {
+     font-size: 65px;
+ }
+
+ .course-info p {
+     line-height: 1.4;
+     margin-top: 14px;
+ }
+
+ .course-prices {
+     margin-left: 20px;
+     text-align: center;
+     width: 400px;
+     margin: 20px;
+ }
+
+ .prices-info {
+     background-color: #ffec00;
+     color: #327ef9;
+     padding: 20px;
+ }
+
+ .prices-info h5 {
+     font-size: 40px;
+ }
+
+ .prices-info h1 {
+     font-size: 90px;
+     font-weight: 900;
+ }
+
+ .course-features {
+     background-color: white;
+     padding: 20px;
+     text-align: center;
+ }
+
+ ul {
+     list-style: square;
+     text-align: left;
+     display: inline-block;
+     line-height: 2;
+ }
+
+ .btn {
+     background-color: #327ef9;
+     padding: 15px;
+     border-radius: 8px;
+     color: white;
+     border: solid #327ef9;
+     margin-top: 20px;
+     font-size: 20px;
+ }
+
+ .btn:hover {
+     cursor: pointer;
+     background-color: #327ee1;
+ }
+
+ .btn-img {
+     height: 20px;
+     width: 20px;
+     vertical-align: middle;
+ }
+
+ .board {
+     display: flex;
+     flex-wrap: wrap;
+     background: url(images/board.jpeg) center;
+     height: 700px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .member-list {
+     background-color: white;
+     width: 450px;
+     height: 550px;
+     text-align: center;
+ }
+
+ .member-img {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     margin: 51px 175px;
+     background: url(images/pexels-photo.jpeg) center;
+     background-size: cover;
+ }
+
+ .member-list p {
+     line-height: 1.5;
+     padding: 31px;
+     font-size: 18px;
+ }
+
+ .member-list h3 {
+     font-size: 26px;
+     padding: 20px;
+ }
+
+ .member-list h6 {
+     font-size: 18px;
+     padding: 20px;
+ }
+
+ .operational {
+     background-color: #327ee1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .operational-content {
+     color: #ffec00;
+     font-size: 18px;
+     border: 15px solid white;
+     text-align: center;
+     margin: 25px;
+     width: 70%;
+ }
+
+ .operational-content h1 {
+     font-size: 35px;
+     padding: 31px;
+ }
+
+ .operational-content h4 {
+     color: white;
+     padding: 30px;
+ }
+
+ #svg-ca89 {
+     fill: #ffec00;
+     width: 100%;
+     height: 50px;
+     padding: 30px;
+ }
+
+ .operation-head img {
+     height: 450px;
+ }
+
+ .communication-section {
+     background-color: #fb4bd7;
+     color: white;
+     display: flex;
+     flex-wrap: wrap;
+     height: 800px;
+     justify-content: center;
+ }
+
+ .communication-image {
+     height: 400px;
+     padding: 10px;
+     margin: 20px;
+ }
+
+ .communication-details {
+     width: 60%;
+     margin: auto;
+     text-align: center;
+     padding: 10px;
+     margin: 20px;
+ }
+
+ .communication-details h1 {
+     font-size: 35px;
+ }
+
+ .communication-details p {
+     padding: 16px;
+     font-size: 20px;
+ }
+
+ .communication-details span {
+     line-height: 1.4;
+     font-size: 21px;
+ }
+
+ .section-footer {
+     height: 200px;
+     background-color: #333333;
+     color: white;
+     text-align: center;
+ }
+
+ .section-footer p {
+     padding: 60px;
+ }
